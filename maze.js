@@ -110,8 +110,7 @@ function setup() {
 function draw(){ 
     background("white");
     if(gameState === 1) {
-        pc.x = 200;
-        pc.y = 200;
+       
     
         
         if(keyDown(UP_ARROW)){
