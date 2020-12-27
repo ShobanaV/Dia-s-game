@@ -49,10 +49,7 @@ var setUpTrex = true;
 var ts1;
 
 
-function preload() {
-    trexRunning = loadAnimation("images/terx/trex1.png", "images/terx/trex2.png", "images/terx/trex3.png");
-    
-}
+
 
 function setup() {
     if(gameState === 1) {
@@ -182,8 +179,9 @@ function draw(){
             setupTrexGame();
             setUpTrex = false;
         } 
-
+        console.log("Game State : " + gameState)
         if(gameState === 2) {
+            
             drawTrexGame();
         }
 

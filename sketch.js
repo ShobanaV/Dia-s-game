@@ -7,6 +7,7 @@ function setup() {
   createCanvas(400,400);
   pc=createSprite(400, 200, 50, 50);
   tresaure=createSprite(200, 200, 50, 50);
+  
 }
 
 function draw() {
@@ -24,6 +25,11 @@ function draw() {
 
     }
   } else if(gameState === 2) {
+    // if(spritesCreated === false) {
+    //   setupTrexGame();
+    //   spritesCreated = true;
+    // }
+    // drawTrexGame();
 
   }
 
